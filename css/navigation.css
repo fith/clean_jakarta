@@ -1,0 +1,126 @@
+/* $Id: navigation.css,v 1.1.2.11.2.8 2010/03/03 17:45:16 psynaptic Exp $ */
+
+#navigation .primary-links {
+   width:960px;
+   
+   border: 2px solid #000000;
+
+background: #ff3019; /* Old browsers */
+background: -moz-linear-gradient(top,  #ff3019 0%, #cf0404 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3019), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ff3019 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ff3019 0%,#cf0404 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ff3019 0%,#cf0404 100%); /* IE10+ */
+background: linear-gradient(top,  #ff3019 0%,#cf0404 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
+
+
+   padding: 12.5px 25px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   font-size: 2em;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #8fa892;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+
+/* Links */
+
+ul.links {
+  padding: 0;
+  margin: 0;
+  line-height: 2;
+  border: none;
+}
+
+ul.links li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: inline;
+}
+
+ul.links.inline li {
+  float: none;
+}
+
+ul.links li a {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  border: none;
+  margin-right: 5px;
+}
+
+ul.links.inline li a {
+  display: inline;
+  padding: 0;
+  margin-right: 10px;
+}
+
+ul.links a.active,
+ul.links li.active a {
+  border: none;
+}
+
+/* Tabs */
+
+#tabs {
+  margin-bottom: 10px;
+}
+
+ul.tabs li {
+  float: left;
+}
+
+ul.tabs li a:link,
+ul.tabs li a:visited {
+  padding: 2px 5px;
+}
+
+ul.tabs.secondary {
+  font-size: 0.9em;
+}
+
+/* Menus */
+
+ul.menu {
+  margin: 0;
+}
+
+ul.menu li a {
+  display: block;
+  padding: 0;
+}
+
+ul.menu {
+  padding-left: 20px;
+}
+
+ul.menu li li a {
+  font-size: 0.9em;
+}
+
+.sidebar ul.menu {
+  padding-left: 10px;
+}
+
+/* Node links */
+
+.node-links ul.links li a {
+  padding: 0;
+  margin-right: 10px;
+}
