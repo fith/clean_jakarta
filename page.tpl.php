@@ -62,7 +62,11 @@
 
 
           <?php if (($title) && ($node->type === "story")) { ?>
-            <h1 class="page-title" style="background-image:url('/<?php print $node->field_images[0]['filepath']; ?>') !important;"><?php print $title; ?></h1>
+            <?php
+            $bg_image = imagecache_create_path('blog_header', $node->field_images[0]['filepath']);
+            $bg_image = "style=\"background-image:url('/".$bg_image."') !important;\"";
+            ?>
+            <h1 class="page-title" <?=$bg_image?>><?php print $title; ?></h1>
             
           <?php } else if ($title) { ?>
             <h1 class="page-title"><?php print $title; ?></h1>

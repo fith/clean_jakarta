@@ -5,7 +5,12 @@
 
   <div class="node-content clear-block">
     <?php if (!$page && $title): ?>
-      <h2 class='node-title' style="background-image:url('<?php print $node->field_images[0]['filepath']; ?>') !important;">
+            <?php
+            $bg_image = imagecache_create_path('blog_header', $node->field_images[0]['filepath']);
+            $bg_image = "style=\"background-image:url('/".$bg_image."') !important;\"";
+            ?>
+          
+      <h2 class='node-title' <?=$bg_image?>>
         <?php print $title; ?>
       </h2>
     <?php endif; ?>
