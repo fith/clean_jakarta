@@ -42,7 +42,7 @@ body {
 
 #navigation .primary-links a {
 	display:inline-block;
-	margin:15px 0px 15px 20px;
+	margin:15px 20px 15px 20px;
 	font-family: 'IM Fell English', serif;
 	text-transform:capitalize;
 	font-size:24pt;
@@ -125,4 +125,42 @@ border: 2px solid black;
 
 #inner-node-content {
 	padding:0px 20px;
+}
+
+.node-links {
+	clear:both;
+}
+
+.field-field-images {
+	float: right;
+	margin-left:20px;
+	clear:right;
+}
+
+.node-teaser .field-field-images {
+	width: 234px;
+}
+.field-field-images img {
+	padding: 2px;
+	border:1px solid black;
+	background-color:#ecd7b3;
+	margin-bottom:10px;
+}
+.node-teaser .field-field-images img {
+	float: right;
+	margin:0px 0px 10px 10px;
+	padding: 2px;
+	border:1px solid black;
+	background-color:#ecd7b3;
+}
+
+.node-submitted {
+	width: 234px;
+	float:right;
+	padding:0 0px 20px 0;
+	text-align:right;	
+}
+
+.node-body {
+	margin:20px 20px 20px 10px;
 }

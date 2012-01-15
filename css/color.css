@@ -23,10 +23,15 @@ a:visited {
 
 a:hover {
   color: #cd303c;
+  
 }
 
 a:visited:hover {
   color: #cd303c;
+}
+
+#inner-node-content a:hover {
+  text-decoration:underline;
 }
 
 a:focus {

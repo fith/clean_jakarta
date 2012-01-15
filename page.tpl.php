@@ -62,7 +62,7 @@
 
 
           <?php if (($title) && ($node->type === "story")) { ?>
-            <h1 class="page-title" style="background-image:url('/<?php print $node->field_story_header_image[0]['filepath']; ?>') !important;"><?php print $title; ?></h1>
+            <h1 class="page-title" style="background-image:url('/<?php print $node->field_images[0]['filepath']; ?>') !important;"><?php print $title; ?></h1>
             
           <?php } else if ($title) { ?>
             <h1 class="page-title"><?php print $title; ?></h1>
@@ -90,5 +90,6 @@
   </div>
 
   <?php print $closure; ?>
+  <pre><?php print_r($node) ?>
 </body>
 </html>

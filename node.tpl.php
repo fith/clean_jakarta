@@ -5,7 +5,7 @@
 
   <div class="node-content clear-block">
     <?php if (!$page && $title): ?>
-      <h2 class='node-title' style="background-image:url('<?php print $node->field_story_header_image[0]['filepath']; ?>') !important;">
+      <h2 class='node-title' style="background-image:url('<?php print $node->field_images[0]['filepath']; ?>') !important;">
         <?php print $title; ?>
       </h2>
     <?php endif; ?>
@@ -15,7 +15,10 @@
         <div class='node-submitted clear-block'>
           <?php
             if ($submitted) { 
-              print 'by ' . theme('username', $node) . ' | ' . format_date($node->created, 'custom', 'd/m/Y');
+              if($node->name !== "admin") {
+                print 'by ' . theme('username', $node) . ' | ';
+              }
+              print format_date($node->created, 'custom', 'd/m/Y');
               if ($terms) {
                   print ' | in ' . $terms;
               }
