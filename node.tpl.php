@@ -27,7 +27,7 @@
         </div>
       <?php endif; ?>
 
-      <?php print $picture; ?>
+      <?php //print $picture; ?>
 
       <?php print $content; ?>
 

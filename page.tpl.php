@@ -90,6 +90,5 @@
   </div>
 
   <?php print $closure; ?>
-  <pre><?php print_r($node) ?>
 </body>
 </html>
