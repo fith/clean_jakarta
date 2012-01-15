@@ -1,0 +1,82 @@
+body {
+	background-image: url('../images/map_1920w.jpg');
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/map_1920w.jpg', sizingMethod='image/scale/crop');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:top center;
+	background-size:100% auto;
+}
+
+#branding {
+	height:220px;
+}
+
+#branding #logo {
+	display:inline-block;
+	float:left;
+	height:220px;
+	width:250px;
+
+}
+#branding #logo img {
+	width:auto;
+	height:250px;
+	position:absolute;
+	z-index:-900;
+}
+
+#branding #site-name {
+	display:inline-block;
+	margin:0px;
+	padding:40px;
+	font-size: 84pt;
+	line-height:0.8;
+	font-family: 'IM Fell English', serif;
+	color:white;
+	text-shadow: 0px 0px 10px black, 1px 1px black;
+	filter: dropshadow(color=#FFF, offx=0, offy=0);
+	background-image: url('../images/sitename-sash.png');
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/sitename-sash.png', sizingMethod='image/scale/crop');
+	background-repeat:no-repeat;
+}
+
+#navigation .primary-links {
+	padding:5px 10px 5px 10px;
+
+	border: 1px solid black;	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+
+	background: #ff3019; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ff3019 0%, #cf0404 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3019), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ff3019 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ff3019 0%,#cf0404 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ff3019 0%,#cf0404 100%); /* IE10+ */
+	background: linear-gradient(top,  #ff3019 0%,#cf0404 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
+
+	font-size:2em;
+}
+
+#content .node {
+	padding:20px;
+
+	border: 1px solid black;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+
+	background-color: white;
+
+	-webkit-box-shadow: inset 0px 0px 60px 0px #eae7c5, 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: inset 0px 0px 60px 0px #eae7c5, 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: inset 0px 0px 60px 0px #eae7c5, 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+
+
+}

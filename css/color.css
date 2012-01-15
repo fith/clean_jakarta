@@ -7,10 +7,6 @@ body#tinymce {
   background-color: #e9e7c5;
 }
 
-body {
-  background-image: url('../images/map_1920w.jpg');
-}
-
 body,
 table,
 td {
@@ -18,11 +14,11 @@ td {
 }
 
 a:link {
-  color: #8fa892;
+  color: #be1e2c;
 }
 
 a:visited {
-  color: #8fa892;
+  color: #be1e2c;
 }
 
 a:hover {

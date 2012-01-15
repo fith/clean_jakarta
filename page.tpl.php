@@ -4,11 +4,13 @@
 <html<?php print drupal_attributes($html_attr); ?>>
 
 <head>
+  
   <?php print $head; ?>
   <?php print $styles; ?>
   <!--[if lt IE 8]><link type="text/css" rel="stylesheet" media="all" href="<?php print $base_theme; ?>css/ie-lt8.css" /><![endif]-->
   <?php print $scripts; ?>
   <title><?php print $head_title; ?></title>
+  <link href='http://fonts.googleapis.com/css?family=IM+Fell+English' rel='stylesheet' type='text/css'>
 </head>
 
 <body<?php print drupal_attributes($attr); ?>>
@@ -21,10 +23,13 @@
     </div>
   <?php endif; ?>
 
+
+
   <div id="branding">
     <div class="limiter clear-block">
+
       <?php print $logo_themed; ?>
-      <?php print $site_name_themed; ?>
+      <a id="site-name" href="/">Jakarta<br/> or Bust</a>
       <?php print $site_slogan_themed; ?>
       <?php print $mission_themed; ?>
       <?php print $search_box; ?>
