@@ -3,28 +3,36 @@
 
 <div <?php print drupal_attributes($attr); ?>>
 
-  <?php if (!$page && $title): ?>
-    <h2 class='node-title'>
-      <?php print $title; ?>
-    </h2>
-  <?php endif; ?>
-
-  <?php if ($submitted): ?>
-    <div class='node-submitted clear-block'>
-      <?php print $submitted; ?>
-    </div>
-  <?php endif; ?>
-
-  <?php print $picture; ?>
-
   <div class="node-content clear-block">
-    <?php print $content; ?>
+    <?php if (!$page && $title): ?>
+      <h2 class='node-title' style="background-image:url('<?php print $node->field_story_header_image[0]['filepath']; ?>') !important;">
+        <?php print $title; ?>
+      </h2>
+    <?php endif; ?>
+
+    <div id="inner-node-content">
+      <?php if ($submitted): ?>
+        <div class='node-submitted clear-block'>
+          <?php
+            if ($submitted) { 
+              print 'by ' . theme('username', $node) . ' | ' . format_date($node->created, 'custom', 'd/m/Y');
+              if ($terms) {
+                  print ' | in ' . $terms;
+              }
+            } 
+            ?>
+        </div>
+      <?php endif; ?>
+
+      <?php print $picture; ?>
+
+      <?php print $content; ?>
+
+        <?php if ($links): ?>
+          <div class="node-links clear-block"><?php print $links; ?></div>
+        <?php endif; ?>
+    </div>
   </div>
-
-  <?php if ($links): ?>
-    <div class="node-links clear-block"><?php print $links; ?></div>
-  <?php endif; ?>
-
 </div>
 
 <?php print $post; ?>

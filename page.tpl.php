@@ -60,9 +60,14 @@
           <?php print $messages; ?>
           <?php print $help; ?>
 
-          <?php if ($title): ?>
+
+          <?php if (($title) && ($node->type === "story")) { ?>
+            <h1 class="page-title" style="background-image:url('/<?php print $node->field_story_header_image[0]['filepath']; ?>') !important;"><?php print $title; ?></h1>
+            
+          <?php } else if ($title) { ?>
             <h1 class="page-title"><?php print $title; ?></h1>
-          <?php endif; ?>
+            
+            <?php } ?>
 
           <?php print $content; ?>
         </div>
