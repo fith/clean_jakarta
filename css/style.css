@@ -40,10 +40,19 @@ body {
 	background-repeat:no-repeat;
 }
 
-#navigation .primary-links {
-	padding:5px 10px 5px 10px;
+#navigation .primary-links a {
+	display:inline-block;
+	margin:15px 0px 15px 20px;
+	font-family: 'IM Fell English', serif;
+	text-transform:capitalize;
+	font-size:24pt;
+	color:white;
+	text-shadow: 0px 0px 4px #333;
+}
 
-	border: 1px solid black;	
+/* BUTTON CLASS */
+#navigation .primary-links {
+border: 2px solid black;	
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -60,8 +69,6 @@ body {
 	background: -ms-linear-gradient(top,  #ff3019 0%,#cf0404 100%); /* IE10+ */
 	background: linear-gradient(top,  #ff3019 0%,#cf0404 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
-
-	font-size:2em;
 }
 
 #content .node {
@@ -77,6 +84,11 @@ body {
 	-webkit-box-shadow: inset 0px 0px 60px 0px #eae7c5, 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow: inset 0px 0px 60px 0px #eae7c5, 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
 	box-shadow: inset 0px 0px 60px 0px #eae7c5, 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+}
 
-
+#content .node .node-title a {
+	font-family: 'IM Fell English', serif;
+	text-transform:capitalize;
+	font-size:24pt;
+	color:white !important;
 }
