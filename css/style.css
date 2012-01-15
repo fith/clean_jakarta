@@ -157,6 +157,7 @@ border: 2px solid black;
 .node-submitted {
 	float:right;
 	padding:0 0px 20px 0;
+	width: 234px;
 	text-align:right;	
 }
 
