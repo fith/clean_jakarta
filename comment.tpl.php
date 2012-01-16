@@ -8,8 +8,8 @@
               print format_date($node->created, 'custom', 'F d, Y'); 
               if($new) print '<span class="new">*</span>' ;
               print '<br/>';
-              print 'at' . format_date($node->created, 'custom', 'g:ia ');
-              print 'by' . theme('username', $node) . '<br/>';
+              print 'at ' . format_date($node->created, 'custom', 'g:ia ');
+              print 'by ' . theme('username', $node) . '<br/>';
               print $picture;
           ?>
         </div>
