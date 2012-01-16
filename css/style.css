@@ -189,11 +189,14 @@ border: 2px solid black;
 	clear:both;
 }
 
-.field-field-images,
-.view-photos {
+.field-field-images {
 	float: right;
 	margin-left:20px;
 	clear:right;
+}
+
+.view-photos a {
+	float: left;
 }
 
 .field-field-blog-map {
