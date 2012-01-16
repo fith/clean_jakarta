@@ -5,11 +5,8 @@
       <?php if ($submitted): ?>
         <div class='node-submitted clear-block'>
           <?php
-              print 'by ' . theme('username', $node) . ' | ';
               print format_date($node->created, 'custom', 'F d, Y');
-              if ($terms) {
-                  print ' | in ' . $terms;
-              }
+              print 'by ' . theme('username', $node) . ($new)?"<span class=\"new\">*</span>":"";
           ?>
         </div>
       <?php endif; ?>
