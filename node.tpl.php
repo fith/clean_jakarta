@@ -6,8 +6,10 @@
   <div class="node-content clear-block">
     <?php if (!$page && $title): ?>
             <?php
-            $bg_image = imagecache_create_path('blog_header', $node->field_images[0]['filepath']);
-            $bg_image = "style=\"background-image:url('/".$bg_image."') !important;\"";
+            if(($node->type === "story") && module_exists("imagecache")) {  
+              $bg_image = imagecache_create_path('blog_header', $node->field_images[0]['filepath']);
+              $bg_image = "style=\"background-image:url('/".$bg_image."') !important;\"";
+            }
             ?>
           
       <h2 class='node-title' <?=$bg_image?>>
