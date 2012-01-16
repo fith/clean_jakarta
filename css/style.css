@@ -57,8 +57,11 @@ body {
 	text-shadow: 0px 0px 4px #333;
 }
 
+#block-menu-secondary-links {
+	background-image:url('../images/charity_banner.png');
+}
+
 /* BUTTON CLASS */
-#block-menu-secondary-links li,
 #navigation .primary-links {
 border: 2px solid black;	
 	-webkit-border-radius: 5px;
