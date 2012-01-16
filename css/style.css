@@ -66,19 +66,19 @@ body {
 	display:block;
 }
 
-.donate {
-	position:relative;
+#block-menu-secondary-links .donate {
+	position:relative; 
 	top:-60px;
 	background-image:url('../images/ornate_banner_red.png');
 	display:inline-block;
 	height:202px;
 	width:220px;
 }
-.donate a { 
+#block-menu-secondary-links .donate a { 
 	margin-top:78px !important;
 	margin-left:38px !important;
 }
-.sponsor {
+#block-menu-secondary-links .sponsor {
 	position:relative;
 	top:-120px;
 	background-image:url('../images/ornate_banner_red2.png');
@@ -86,11 +86,11 @@ body {
 	height:194px;
 	width:220px;
 }
-.sponsor a {
+#block-menu-secondary-links .sponsor a {
 	margin-top:83px !important;
 	margin-left:32px !important;	
 }
-.map {
+#block-menu-secondary-links .map {
 	position:relative;
 	top:-120px;
 	background-image:url('../images/map.png');
@@ -98,9 +98,9 @@ body {
 	height:179px;
 	width:220px;
 }
-.map a {
-	margin-top:83px !important;
-	margin-left:32px !important;	
+#block-menu-secondary-links .map a {
+	margin-top:62px !important;
+	margin-left:76px !important;	
 }
 
 /* BUTTON CLASS */
