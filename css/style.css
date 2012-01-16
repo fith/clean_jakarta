@@ -49,7 +49,7 @@ body {
 #navigation .primary-links a,
 #block-menu-secondary-links li a {
 	display:inline-block;
-	margin:15px 20px 15px 20px;
+	margin:0px 20px 0px 20px;
 	font-family: 'IM Fell English', serif;
 	text-transform:capitalize;
 	font-size:24pt;
@@ -57,8 +57,26 @@ body {
 	text-shadow: 0px 0px 4px #333;
 }
 
+#block-menu-secondary-links li {
+	
+}
+
 #block-menu-secondary-links {
-	background-image:url('../images/charity_banner.png');
+	background-repeat:no-repeat;
+	display:block;
+}
+
+.donate {
+	position:relative;
+	top:-60px;
+	background-image:url('../images/ornate_banner_red.png');
+	display:inline-block;
+	height:202px;
+	width:220px;
+}
+.donate a { 
+	margin-top:75px !important;
+	margin-left:35px !important;
 }
 
 /* BUTTON CLASS */
