@@ -75,8 +75,32 @@ body {
 	width:220px;
 }
 .donate a { 
-	margin-top:75px !important;
-	margin-left:35px !important;
+	margin-top:78px !important;
+	margin-left:38px !important;
+}
+.sponsor {
+	position:relative;
+	top:-120px;
+	background-image:url('../images/ornate_banner_red2.png');
+	display:inline-block;
+	height:194px;
+	width:220px;
+}
+.sponsor a {
+	margin-top:83px !important;
+	margin-left:32px !important;	
+}
+.map {
+	position:relative;
+	top:-120px;
+	background-image:url('../images/map.png');
+	display:inline-block;
+	height:179px;
+	width:220px;
+}
+.map a {
+	margin-top:83px !important;
+	margin-left:32px !important;	
 }
 
 /* BUTTON CLASS */
