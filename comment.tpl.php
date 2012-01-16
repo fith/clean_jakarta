@@ -10,7 +10,6 @@
               if ($terms) {
                   print ' | in ' . $terms;
               }
-            } 
           ?>
         </div>
       <?php endif; ?>
