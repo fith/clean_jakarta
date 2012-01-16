@@ -189,7 +189,8 @@ border: 2px solid black;
 	clear:both;
 }
 
-.field-field-images {
+.field-field-images,
+.view-photos {
 	float: right;
 	margin-left:20px;
 	clear:right;
