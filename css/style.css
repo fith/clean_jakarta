@@ -73,17 +73,19 @@ body {
 	display:inline-block;
 	height:202px;
 	width:220px;
+	z-index:100;
 }
 #block-menu-secondary-links .donate a { 
 	margin:0px;
-	height:124px;
+	height:74px;
 	width:182px;
 	padding-top:78px !important;
 	padding-left:38px !important;
+	padding-bottom:50px;
 }
 #block-menu-secondary-links .sponsor {
 	position:relative;
-	top:-120px;
+	top:-146px;
 	background-image:url('../images/ornate_banner_red2.png');
 	display:inline-block;
 	height:194px;
@@ -92,15 +94,14 @@ body {
 }
 #block-menu-secondary-links .sponsor a {
 	margin:0px;
-	height:91px;
+	height:111px;
 	width:188px;
 	padding-top:83px !important;
 	padding-left:32px !important;	
-	padding-bottom:20px;
 }
 #block-menu-secondary-links .map {
 	position:relative;
-	top:-140px;
+	top:-108px;
 	background-image:url('../images/map.png');
 	display:inline-block;
 	height:179px;
