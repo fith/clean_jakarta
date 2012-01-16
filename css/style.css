@@ -198,6 +198,12 @@ border: 2px solid black;
 .view-photos a {
 	float: left;
 }
+.view-photos a img {
+	border: 1px solid black;
+	padding: 2px;
+	margin-bottom: 10px;
+	background-color:#ecd7b3;
+}
 
 .field-field-blog-map {
 	float: right;
