@@ -5,12 +5,13 @@
       <?php if ($submitted): ?>
         <div class='node-submitted clear-block'>
           <?php
-              print format_date($node->created, 'custom', 'F d, Y');
-              print 'by ' . theme('username', $node) . ($new)?"<span class=\"new\">*</span>":"";
+              print format_date($node->created, 'custom', 'F d, Y') . ($new)?"<span class=\"new\">*</span>":"" . "<br/>";
+              print 'by ' . theme('username', $node) . '<br/>';
+              <?php print $picture; ?>
           ?>
         </div>
       <?php endif; ?>
-  <?php print $picture; ?>
+  
 
   <div class="comment-content clear-block">
     <?php print $content; ?>
