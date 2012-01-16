@@ -1,6 +1,10 @@
 <?php
 // $Id: template.php,v 1.1.2.4 2010/04/11 22:57:47 snufkin Exp $
 
+function phptemplate_comment_form($form) {
+   return _phptemplate_callback('comment-form', array('form' => $form));
+}
+
 /**
  * Override or insert variables into the page templates.
  *
