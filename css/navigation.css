@@ -79,7 +79,7 @@ ul.links li.active a {
 /* Tabs */
 
 #tabs {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 ul.tabs li {
