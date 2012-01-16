@@ -195,6 +195,14 @@ border: 2px solid black;
 	clear:right;
 }
 
+.field-field-blog-map {
+	float: right;
+	clear: right;
+	border: 1px solid black;
+	padding: 2px;
+	margin-bottom: 10px;
+}
+
 .node-teaser .field-field-images {
 	width: 234px;
 	max-width:234px;
