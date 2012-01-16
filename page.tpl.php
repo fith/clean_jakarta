@@ -4,7 +4,7 @@
 <html<?php print drupal_attributes($html_attr); ?>>
 
 <head>
-  
+  <meta name="google-site-verification" content="XV64PGEsIgEVU-7X0XT4dkq-TZJI3XyiSp9ANCFRmW8" />
   <?php print $head; ?>
   <?php print $styles; ?>
   <!--[if lt IE 8]><link type="text/css" rel="stylesheet" media="all" href="<?php print $base_theme; ?>css/ie-lt8.css" /><![endif]-->
@@ -61,7 +61,7 @@
           <?php print $help; ?>
 
 
-          <?php if (($title)) {
+          <?php if (($title) && isset($node->field_images[0]['filepath'])) {
             $bg_image = imagecache_create_path('blog_header', $node->field_images[0]['filepath']);
             $bg_image = "<style>.page-title{background-image:url('/".$bg_image."') !important;}</style>";
             print $bg_image;
