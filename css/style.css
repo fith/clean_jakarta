@@ -75,8 +75,11 @@ body {
 	width:220px;
 }
 #block-menu-secondary-links .donate a { 
-	margin-top:78px !important;
-	margin-left:38px !important;
+	margin:0px;
+	height:124px;
+	width:182px;
+	padding-top:78px !important;
+	padding-left:38px !important;
 }
 #block-menu-secondary-links .sponsor {
 	position:relative;
@@ -87,20 +90,27 @@ body {
 	width:220px;
 }
 #block-menu-secondary-links .sponsor a {
-	margin-top:83px !important;
-	margin-left:32px !important;	
+	margin:0px;
+	height:111px;
+	width:188px;
+	padding-top:83px !important;
+	padding-left:32px !important;	
 }
 #block-menu-secondary-links .map {
+	z-index:-1;
 	position:relative;
-	top:-120px;
+	top:-140px;
 	background-image:url('../images/map.png');
 	display:inline-block;
 	height:179px;
 	width:220px;
 }
 #block-menu-secondary-links .map a {
-	margin-top:62px !important;
-	margin-left:76px !important;	
+	margin:0px;
+	height:117px;
+	width:144px;
+	padding-top:62px !important;
+	padding-left:76px !important;	
 }
 
 /* BUTTON CLASS */
