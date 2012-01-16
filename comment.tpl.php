@@ -6,7 +6,7 @@
         <div class='node-submitted clear-block'>
           <?php
               print format_date($node->created, 'custom', 'F d, Y') 
-              print ($new)?"<span class=\"new\">*</span>":"" ;
+              if($new) print '<span class="new">*</span>' ;
               print '<br/>by ' . theme('username', $node) . '<br/>';
               print $picture;
           ?>
