@@ -5,10 +5,8 @@
       <?php if ($submitted): ?>
         <div class='node-submitted clear-block'>
           <?php
-              print format_date($node->created, 'custom', 'F d, Y'); 
               if($new) print '<span class="new">*</span>' ;
-              print '<br/>';
-              print 'at ' . format_date($node->created, 'custom', 'g:ia ');
+              print format_date($node->created, 'custom', 'g:ia M d, Y'); 
               print '<br/>';
               print 'by ' . theme('username', $node) . '<br/>';
               print $picture;
