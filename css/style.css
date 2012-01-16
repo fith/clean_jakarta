@@ -195,7 +195,7 @@ border: 2px solid black;
 	clear:right;
 }
 .page-photos #content {
-	margin-bottom:26px;
+	padding-bottom:26px;
 }
 .view-photos a {
 	float: left;
