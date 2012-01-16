@@ -202,7 +202,7 @@ border: 2px solid black;
 	margin: 20px;
 	padding: 20px;
 }
-#comment textarea {
+#comment .form-textarea {
 	height:50px;
 }
 
