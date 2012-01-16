@@ -88,16 +88,17 @@ body {
 	display:inline-block;
 	height:194px;
 	width:220px;
+	z-index:100;
 }
 #block-menu-secondary-links .sponsor a {
 	margin:0px;
-	height:111px;
+	height:91px;
 	width:188px;
 	padding-top:83px !important;
 	padding-left:32px !important;	
+	padding-bottom:20px;
 }
 #block-menu-secondary-links .map {
-	z-index:-1;
 	position:relative;
 	top:-140px;
 	background-image:url('../images/map.png');
