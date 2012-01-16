@@ -197,10 +197,13 @@ border: 2px solid black;
 .page-photos #content {
 	padding-bottom:26px;
 }
-.comments {
+#comments {
 	border: 1px solid black;
 	margin: 20px;
 	padding: 20px;
+}
+#comment textarea {
+	height:50px;
 }
 
 .view-photos a {
