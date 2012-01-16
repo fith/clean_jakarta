@@ -46,7 +46,8 @@ body {
 	background-repeat:no-repeat;
 }
 
-#navigation .primary-links a {
+#navigation .primary-links a,
+#block-menu-secondary-links li a {
 	display:inline-block;
 	margin:15px 20px 15px 20px;
 	font-family: 'IM Fell English', serif;
