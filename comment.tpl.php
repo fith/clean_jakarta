@@ -6,9 +6,9 @@
         <div class='node-submitted clear-block'>
           <?php
               if($new) print '<span class="new">*</span>' ;
-              print format_date($node->created, 'custom', 'g:ia M d, Y'); 
+              print format_date($comment->timestamp, 'custom', 'M d, Y g:ia'); 
               print '<br/>';
-              print 'by ' . theme('username', $node) . '<br/>';
+              print 'by ' . $comment->registered_name . '<br/>';
               print $picture;
           ?>
         </div>
@@ -19,7 +19,7 @@
     <?php print $content; ?>
   </div>
 
-  <?php if ($links): ?>
+  <?php if ($links && !strstr($links, "to post comments")): ?>
     <div class="comment-links clear-block"><?php print $links; ?></div>
   <?php endif; ?>
 

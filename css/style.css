@@ -222,6 +222,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 	left:-20px;
 }
 
+.comment p {
+	width:400px;
+}
+
 #inner-node-content,
 .front #content #inner-node-content #inner-node-content {
 	padding:0px 20px;
