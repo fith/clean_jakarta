@@ -65,8 +65,8 @@ body {
 #block-menu-secondary-links li a:hover {
 	top:-1px;
 }
-#navigation .primary-links a:hover,
-#block-menu-secondary-links li a:hover {
+#navigation .primary-links a:active,
+#block-menu-secondary-links li a:active {
 	top:1px;
 	left:1px;
 }
