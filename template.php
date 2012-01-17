@@ -11,7 +11,12 @@ function phptemplate_comment_form($form) {
  * @param $variables
  *   An array of variables to pass to the theme template.
  */
-function clean_1kb_preprocess_page(&$variables) {
+function clean_jakarta_preprocess_page(&$variables) {
+  $header_image_query = "select files.filepath from files, content_field_images where files.fid = content_field_images.field_images_fid order by RAND() ASC limit 1";
+  $header_image_queryResult =  db_query($header_image_query);
+  $variables['random_header_image'] = db_fetch_object($header_image_queryResult);
+
+
   $full_grid_classes = array();
   $main_classes = array();
   $left_classes = array();

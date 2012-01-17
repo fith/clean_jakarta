@@ -60,9 +60,9 @@
           <?php print $messages; ?>
           <?php print $help; ?>
 
-
-          <?php if (($title) && isset($node->field_images[0]['filepath'])) {
-            $bg_image = imagecache_create_path('blog_header', $node->field_images[0]['filepath']);
+          <?php if ($title) {
+            $bg_image = isset($node->field_images[0]['filepath']) ? $node->field_images[0]['filepath'] : $variables['random_header_image']->filepath;
+            $bg_image = imagecache_create_path('blog_header', $bg_image);
             $bg_image = "<style>.page-title{background-image:url('/".$bg_image."') !important;}</style>";
             print $bg_image;
             ?>

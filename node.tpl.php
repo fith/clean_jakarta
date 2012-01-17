@@ -6,8 +6,11 @@
   <div class="node-content clear-block">
     <?php if (!$page && $title): ?>
             <?php
-            if(($node->type === "story") && module_exists("imagecache") && isset($node->field_images[0]['filepath'])) {  
+            if(module_exists("imagecache") && isset($node->field_images[0]['filepath'])) {  
               $bg_image = imagecache_create_path('blog_header', $node->field_images[0]['filepath']);
+              $bg_image = "style=\"background-image:url('/".$bg_image."') !important;\"";
+            } else if (module_exists("imagecache") && isset($variables['random_header_image'])) {
+              $bg_image = imagecache_create_path('blog_header', $variables['random_header_image']);
               $bg_image = "style=\"background-image:url('/".$bg_image."') !important;\"";
             }
             ?>
