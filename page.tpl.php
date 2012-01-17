@@ -72,8 +72,9 @@
             <h1 class="page-title"><?php print $title; ?></h1>
             
             <?php } ?>
-
-          <?php print $content; ?>
+          <div id="inner-node-content">
+            <?php print $content; ?>
+          </div>
         </div>
 
         <?php if ($right): ?>

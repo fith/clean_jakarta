@@ -52,7 +52,7 @@ body {
 	text-transform:capitalize;
 	font-size:24pt;
 	color:white;
-	text-shadow: 0px 0px 4px #333;	
+	text-shadow: 0px 1px 4px #333;	
 }
 
 #navigation .primary-links a {
@@ -64,16 +64,11 @@ body {
 #navigation .primary-links a:hover,
 #block-menu-secondary-links li a:hover {
 	top:-1px;
+	text-shadow: 0px 2px 4px #333;	
 }
-#navigation .primary-links a:active,
-#block-menu-secondary-links li a:active {
-	top:1px;
-	left:1px;
-}
-
 #navigation .primary-links a:active {
-	top:1px;
-	left:1px;
+	top:2px;
+	text-shadow: 0px 0px 4px #333;	
 	/*
 	background: #7f151e;
 	
@@ -206,9 +201,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 .node-type-story #page .page-title,
 #page .page-title {
 	line-height:1.0;
-	
 	padding:20px;
-	margin:0 0 0 0;
+	margin:0;
 	font-family: 'IM Fell English', serif;
 	text-transform:capitalize;
 	font-size:36pt;
@@ -226,6 +220,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 #content .node .node-title a,
 .page-title {
 	color:white;
+	text-decoration:none !important;
+}
+
+.page-comment #inner-node-content .node-title {
+	position:relative;
+	left:-20px;
 }
 
 #inner-node-content {
@@ -331,4 +331,22 @@ ul.tabs li a.active {
 
 ul.tabs li {
   float: left;
+}
+#comment-form textarea {
+	height:50px;
+}
+input[type=text],
+input[type=password],
+input[type=button],
+input[type=submit],
+textarea {
+	border: 1px solid #352a23;
+	padding:5px 10px;
+	background-color:#f2f1e6;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
