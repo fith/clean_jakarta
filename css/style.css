@@ -87,6 +87,7 @@ body {
 #block-menu-secondary-links {
 	background-repeat:no-repeat;
 	display:block;
+	height:415px;
 }
 
 #block-menu-secondary-links .donate {
