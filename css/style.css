@@ -60,12 +60,6 @@ body {
 	padding:12px;
 	position:relative;
 }
-
-#navigation .primary-links a:hover,
-#block-menu-secondary-links li a:hover {
-	top:-1px;
-	text-shadow: 0px 2px 4px #333;	
-}
 #navigation .primary-links a:active {
 	top:2px;
 	text-shadow: 0px 0px 4px #333;	
