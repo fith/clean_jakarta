@@ -5,6 +5,14 @@ function phptemplate_comment_form($form) {
    return _phptemplate_callback('comment-form', array('form' => $form));
 }
 
+
+function clean_jakarta_comment_form($form) {
+  unset($form['_author']);
+  unset($form['comment_filter']['comment']['#title']);
+
+  return drupal_render($form);
+}
+
 /**
  * Override or insert variables into the page templates.
  *
