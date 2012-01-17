@@ -41,7 +41,6 @@
       <?php print $skip_link; ?>
       <?php print $primary_links; ?>
       <?php print $secondary_links; ?>
-      <?php print $breadcrumb; ?>
     </div>
   </div>
 
@@ -55,8 +54,9 @@
           </div>
         <?php endif; ?>
 
+        <?php print $tabs; ?>
         <div id="content" class="clear-block">
-          <?php print $tabs; ?>
+          
           <?php print $messages; ?>
           <?php print $help; ?>
 

@@ -72,18 +72,6 @@ fieldset {
   border: 1px solid #eee;
 }
 
-/* Tabs */
-
-ul.tabs li a:link,
-ul.tabs li a:visited {
-  background: #E6E6E6;
-  color: #ee2c3a;
-}
-
-ul.tabs li a.active {
-  color: #333;
-}
-
 /* Menus */
 
 li.active-trail a.active {
