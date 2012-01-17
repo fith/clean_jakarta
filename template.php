@@ -1,16 +1,39 @@
 <?php
 // $Id: template.php,v 1.1.2.4 2010/04/11 22:57:47 snufkin Exp $
-
+/*
 function phptemplate_comment_form($form) {
    return _phptemplate_callback('comment-form', array('form' => $form));
+}
+*/
+
+function clean_jakarta_theme(&$existing, $type, $theme, $path) {
+  //$hooks = clean_theme($existing, $type, $theme, $path);
+  // Add your theme hooks like this:
+  /*
+  $hooks['hook_name_here'] = array( // Details go here );
+  */
+ 
+  $hooks['comment_form'] = array(
+    'arguments' => array('form' => NULL),
+    // Note: by uncommenting the following line, you can also use a
+    // template file named comment-form.tpl.php to control the
+    // output of the form. 
+    /*'template' => 'comment-form', */
+  );
+ 
+  return $hooks;
 }
 
 
 function clean_jakarta_comment_form($form) {
+ //print "<pre>".print_r($form,true)."</pre>";
+  $form['#parameters']['title'] = "Share your thoughs...";
   unset($form['_author']);
   unset($form['comment_filter']['comment']['#title']);
+  unset($form['preview']);
 
   return drupal_render($form);
+
 }
 
 /**
