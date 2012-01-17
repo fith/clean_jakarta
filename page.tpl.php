@@ -72,6 +72,8 @@
             <h1 class="page-title"><?php print $title; ?></h1>
             
             <?php } ?>
+
+            
           <div id="inner-node-content">
             <?php print $content; ?>
           </div>
