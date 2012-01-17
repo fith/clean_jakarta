@@ -231,7 +231,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 .front #content #inner-node-content #inner-node-content {
 	padding:0px 20px;
 }
-.front #content #inner-node-content {
+.front #content #inner-node-content,
+.page-map #inner-node-content {
 	padding:0px;
 }
 

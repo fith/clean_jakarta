@@ -14,20 +14,13 @@
 </head>
 
 <body<?php print drupal_attributes($attr); ?>>
-
-  <?php if ($header): ?>
-    <div id="header">
-      <div class="limiter clear-block">
-        <?php print $header; ?>
-      </div>
-    </div>
-  <?php endif; ?>
-
-
-
   <div id="branding">
     <div class="limiter clear-block">
-
+      <?php if ($header): ?>
+        <div id="header">
+            <?php print $header; ?>
+        </div>
+      <?php endif; ?>
       <?php print $logo_themed; ?>
       <a id="site-name" href="/">Jakarta<br/> or Bust</a>
       <?php print $site_slogan_themed; ?>
@@ -35,6 +28,8 @@
       <?php print $search_box; ?>
     </div>
   </div>
+
+
 
   <div id="navigation">
     <div class="limiter clear-block">
@@ -73,7 +68,7 @@
             
             <?php } ?>
 
-            
+
           <div id="inner-node-content">
             <?php print $content; ?>
           </div>
