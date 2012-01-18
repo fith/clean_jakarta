@@ -26,12 +26,13 @@
                 
       <div class='tweet'>
         <?php 
-           
-          if($node->feedapi_node->url != null) {
-            $title_out = "<a href=\"" . $node->feedapi_node->url . "\">" . $node->title . "</a>";
-          } else {
-            $title_out = $node->title;
-          }
+          
+          //if($node->feedapi_node->url != null) {
+          //  $title_out = "<a href=\"" . $node->feedapi_node->url . "\">" . $node->title . "</a>";
+          //} else {
+            $count = 1;
+            $title_out = str_replace("JakartaOrBust: ", "", $node->title, $count);
+          //}
         ?>
         <?php print $title_out; ?>
       </div>
