@@ -201,7 +201,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 	font-family: 'IM Fell English', serif;
 	text-transform:capitalize;
 	font-size:36pt;
-	width:656px;
+	width:100%;
 	display:inline-block;
 	-webkit-box-shadow: inset 0px 0px 100px 0px #000;
 	-moz-box-shadow: inset 0px 0px 100px 0px #000;
@@ -209,7 +209,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 
 	background: #e9e7c5; /* Old browsers */
 	
-	background-position:top center;
+	background-position:top left;
 }
 
 #content .node .node-title a,
@@ -221,6 +221,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 .page-comment #inner-node-content .node-title {
 	position:relative;
 	left:-20px;
+}
+
+.node-type-panel .node-title {
+	display:none;
 }
 
 .comment p {
