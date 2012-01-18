@@ -310,9 +310,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 	margin:20px 20px 20px 10px;
 }
 .tweet-content {
-	-webkit-box-shadow: inset 0px 0px 100px 0px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow: inset 0px 0px 100px 0px rgba(0, 0, 0, 0.5);
-	box-shadow: inset 0px 0px 100px 0px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: inset 0px 0px 100px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: inset 0px 0px 100px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: inset 0px 0px 100px 0px rgba(0, 0, 0, 0.75);
 	background: #e9e7c5; /* Old browsers */
 	padding:10px 20px 10px 40px;
 	background-repeat:no-repeat;
