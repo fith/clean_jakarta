@@ -8,8 +8,8 @@
               $bird->img_width = 1110;
               $bird->width = 696;
               $bird->height = 300;
-              //$bird->site = "jakartaorbust.com";
-              $bird->site = "default";
+              $bird->site = "jakartaorbust.com";
+              //$bird->site = "default";
               $bird->x = rand(0, ($bird->img_width - $bird->width));
               $bird->y = rand(0, ($bird->img_height - $bird->height));
               
