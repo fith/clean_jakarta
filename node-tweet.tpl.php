@@ -1,6 +1,6 @@
 <?php // $Id: node.tpl.php,v 1.1.2.3.2.2.2.6 2010/03/01 13:37:46 psynaptic Exp $ ?>
 <?php print $pre; ?>
-<?php drupal_set_message(print_r($node,true)); ?>
+
 <div <?php print drupal_attributes($attr); ?>>
             <?php
               $bird = new stdClass ();
