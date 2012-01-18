@@ -12,7 +12,7 @@
             $bird->x = rand(0, $bird->img_width - $bird->width);
             $bird->y = rand(0, $bird->img_height - $bird->height);
             $bg_image_margin = "background-position:-".$bird->y."px -".$bird->x."px; ";
-              $bg_image_url = "sites/default/".$bird->site."/themes/clean_jakarta/images/tweet-birds.jpg";
+              $bg_image_url = "sites/".$bird->site."/themes/clean_jakarta/images/tweet-birds.jpg";
               $bg_image = " style=\"";
               $bg_image .= "background-size:".$bird->img_width."px ".$bird->img_height."px; ";
               $bg_image .= $bg_image_margin;
