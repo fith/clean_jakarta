@@ -322,7 +322,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 }
 .node-tweet .node-links {
 	padding:0px;
-	color:#e9e7c5;
+	color:white;
 	z-index:;
 }
 

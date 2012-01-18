@@ -40,7 +40,7 @@
         <?php print $title_out; ?>
       </div>
       <?php if ($links): ?>
-          <div class="node-links clear-block"><?php print $links; ?></div>
+          <div class="node-links clear-block"><?php print format_date($node->created, 'custom', 'F d, Y'); print $links; ?></div>
         <?php endif; ?>
     <?php endif; ?>
   </div>
