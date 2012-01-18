@@ -20,10 +20,13 @@
               $bg_image .= $bg_image_margin;
               $bg_image .= "background-image:url('/".$bg_image_url."') !important;\"";
             ?>
+  <div class="twitter-badge">
+    <a href="<?php print $node->feedapi_node->url ?>">View Original</a>
+  </div>
   <div class="tweet-content clear-block" <?=$bg_image?>>
     <?php if (!$page && $title): ?>
 
-                
+      
       <div class='tweet'>
         <?php 
           
@@ -36,6 +39,9 @@
         ?>
         <?php print $title_out; ?>
       </div>
+        <div id="links">
+          <?php print $links; ?>
+        </div>
     <?php endif; ?>
   </div>
 </div>
