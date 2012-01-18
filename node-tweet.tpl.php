@@ -2,45 +2,38 @@
 <?php print $pre; ?>
 
 <div <?php print drupal_attributes($attr); ?>>
-<pre>
-<?php print_r($node); ?>
-</pre>
-  <div class="node-content clear-block">
-    <?php if (!$page && $title): ?>
             <?php
-            if(module_exists("imagecache") && isset($node->field_images[0]['filepath'])) {  
-              $bg_image = imagecache_create_path('blog_header', $node->field_images[0]['filepath']);
-              $bg_image = "style=\"background-image:url('/".$bg_image."') !important;\"";
-            } else if (module_exists("imagecache") && isset($variables['random_header_image'])) {
-              $bg_image = imagecache_create_path('blog_header', $variables['random_header_image']);
-              $bg_image = "style=\"background-image:url('/".$bg_image."') !important;\"";
-            }
+            $bird = new stdClass ();
+            $bird->img_height = 1304;
+            $bird->img_width = 1110;
+            $bird->width = 696;
+            $bird->height = 300;
+
+            $bird->x = rand(0, $bird->img_width - $bird->width);
+            $bird->y = rand(0, $bird->img_height - $bird->height);
+            $bg_image_margin = "background-position:-".$bird->y."px -".$bird->x."px; ";
+              $bg_image_url = "sites/default/themes/clean_jakarta/images/tweet-birds.jpg";
+              $bg_image = " style=\"";
+              $bg_image .= "background-size:".$bird->img_width."px ".$bird->img_height."px; ";
+              $bg_image .= $bg_image_margin;
+              $bg_image .= "background-image:url('/".$bg_image_url."') !important;\"";
             ?>
+  <div class="tweet-content clear-block" <?=$bg_image?>>
+    <?php if (!$page && $title): ?>
+
                 
-      <h2 class='node-title' <?=$bg_image?>>
-        <?php print $title; ?>
-        <?php
-          if ($submitted) { 
-            print format_date($node->created, 'custom', 'F d, Y g:ia');
-          } 
+      <div class='tweet'>
+        <?php 
+           
+          if($node->feedapi_node->url != null) {
+            $title_out = "<a href=\"" . $node->feedapi_node->url . "\">" . $node->title . "</a>";
+          } else {
+            $title_out = $node->title;
+          }
         ?>
-      </h2>
+        <?php print $title_out; ?>
+      </div>
     <?php endif; ?>
-FART
-    <div id="inner-node-content">
-      <?php if ($submitted): ?>
-        <div class='node-submitted clear-block'>
-
-        </div>
-      <?php endif; ?>
-      <?php //print $picture; ?>
-
-      <?php print $content; ?>
-
-        <?php if ($links): ?>
-          <div class="node-links clear-block"><?php print $links; ?></div>
-        <?php endif; ?>
-    </div>
   </div>
 </div>
 

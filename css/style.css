@@ -191,6 +191,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 	overflow:hidden;
 }
 
+
 #content .node .node-title,
 .node-type-story #page .page-title,
 #page .page-title {
@@ -301,10 +302,35 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 	padding:0 0px 20px 0;
 	width: 234px;
 	text-align:right;	
+	font-size:13px;
+	font-family:sans-serif;
 }
 
 .node-body {
 	margin:20px 20px 20px 10px;
+}
+.tweet-content {
+	-webkit-box-shadow: inset 0px 0px 100px 0px #000;
+	-moz-box-shadow: inset 0px 0px 100px 0px #000;
+	box-shadow: inset 0px 0px 100px 0px #000;
+	background: #e9e7c5; /* Old browsers */
+	padding:10px 20px;
+	background-repeat:no-repeat;
+}
+.node-tweet {
+	padding-bottom:0px;
+}
+.node-tweet .node-submitted {
+	padding:0px;
+	color:#e9e7c5;
+}
+
+.tweet {
+	line-height:1.0;
+	margin:0;
+	font-family: 'IM Fell English', serif;
+	font-size:24pt;
+	color:white;
 }
 
 /* Tabs */
