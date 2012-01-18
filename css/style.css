@@ -196,8 +196,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 }
 
 .panel-panel {
-	width:30% !important;
-	margin:0px 10px;
+	width:284px !important;
+	margin:0px 12px;
 	border: 2px solid #352a23;
 -moz-border-radius-topleft: 20px;
 -moz-border-radius-topright: 20px;
@@ -353,7 +353,7 @@ border-radius: 20px 20px 2px 2px;
 .node-submitted {
 	float:right;
 	padding:0 0px 20px 0;
-	width: 234px;
+	width: 224px;
 	text-align:right;	
 	font-size:13px;
 	font-family:sans-serif;
@@ -364,6 +364,13 @@ border-radius: 20px 20px 2px 2px;
 
 .node-body {
 	margin:20px 20px 20px 10px;
+}
+.no-sidebars .node-body {
+	margin:0px;
+}
+.pane-node .node-body {
+	margin:20px 20px 20px 10px;
+
 }
 .tweet-content {
 	-webkit-box-shadow: inset 0px 0px 100px 0px rgba(0, 0, 0, 0.75);
