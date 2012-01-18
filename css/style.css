@@ -193,11 +193,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 }
 
 .panel-panel {
-
 	width:32% !important;
 }
 .panel-panel .inside {
 	padding: 0px !important;
+	margin:0px !important;
 }
 
 .node-type-panel #content {
@@ -213,7 +213,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 }
 
 #acf .pane-title {
-	background-image:url('../images/birds.jpg');
+	background-image:url('../images/food.jpg');
 	background-size:100% auto;
 }
 #birdslife .pane-title {
