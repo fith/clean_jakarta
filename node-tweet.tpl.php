@@ -39,9 +39,9 @@
         ?>
         <?php print $title_out; ?>
       </div>
-        <div id="links">
-          <?php print $links; ?>
-        </div>
+      <?php if ($links): ?>
+          <div class="node-links clear-block"><?php print $links; ?></div>
+        <?php endif; ?>
     <?php endif; ?>
   </div>
 </div>

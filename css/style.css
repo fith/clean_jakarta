@@ -320,9 +320,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 .node-tweet {
 	padding-bottom:0px;
 }
-.node-tweet .node-submitted {
+.node-tweet .node-links {
 	padding:0px;
 	color:#e9e7c5;
+	z-index:;
 }
 
 .tweet {
@@ -343,6 +344,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 
 .twitter-badge {
 	position:absolute;
+	width:0px;
+	height:0px;
 }
 .twitter-badge a {
 	display:block;
@@ -354,7 +357,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 	background-image:url('../images/twitter-badge.png');
 	width:80px;
 	height:100px;
-	z-index:1000;
+	z-index:200;
 }
 .twitter-badge a:active {
 	top:-36px;
