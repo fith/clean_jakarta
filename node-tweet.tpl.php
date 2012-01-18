@@ -31,7 +31,7 @@
           //  $title_out = "<a href=\"" . $node->feedapi_node->url . "\">" . $node->title . "</a>";
           //} else {
             $count = 1;
-            $title_out = _filter_url(str_replace("JakartaOrBust: ", "", $node->title, $count));
+            $title_out = _filter_url(str_replace("JakartaOrBust: ", "", $node->title, $count), '');
           //}
         ?>
         <?php print $title_out; ?>
