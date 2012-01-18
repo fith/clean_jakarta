@@ -21,7 +21,7 @@
               $bg_image .= "background-image:url('/".$bg_image_url."') !important;\"";
             ?>
   <div class="twitter-badge">
-    <a href="<?php print $node->feedapi_node->url ?>">View Original</a>
+    <a href="/donate">View Original</a>
   </div>
   <div class="tweet-content clear-block" <?=$bg_image?>>
     <?php if (!$page && $title): ?>

@@ -414,8 +414,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 	z-index:200;
 }
 .twitter-badge a:active {
-	top:-36px;
-	left:-48px;
+	top:-42px;
+	left:-45px;
 }
 
 /* Tabs */
