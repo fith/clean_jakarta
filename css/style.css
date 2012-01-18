@@ -176,7 +176,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 }
 
 .front #content .node,
-.not-front #content {
+.not-front #content,
+.panel-panel {
 	border: 2px solid #352a23;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -191,7 +192,35 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 	overflow:hidden;
 }
 
+.panel-panel {
 
+	width:32% !important;
+}
+.panel-panel .inside {
+	padding: 0px !important;
+}
+
+.node-type-panel #content {
+	background:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	border:none;
+}
+.node-type-panel #inner-node-content {
+	margin:0px;
+	padding:0px;
+}
+
+#acf .pane-title {
+	background-image:url('../images/birds.jpg');
+	background-size:100% auto;
+}
+#birdslife .pane-title {
+	background-image:url('../images/birds.jpg');
+	background-size:100% auto;
+}
+.section-donate .pane-title,
 #content .node .node-title,
 .node-type-story #page .page-title,
 #page .page-title {
@@ -212,6 +241,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 	background-position:top left;
 }
 
+.section-donate .pane-title,
 #content .node .node-title a,
 .page-title {
 	color:white;
@@ -223,8 +253,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 	left:-20px;
 }
 
-.node-type-panel .node-title {
-	display:none;
+.node-type-panel .page-title {
+	display:none !important;
 }
 
 .comment p {
@@ -424,3 +454,9 @@ textarea {
 	-moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 	box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
+
+.pane-content #inner-node-content {
+	padding-left:0px
+}
+
+
