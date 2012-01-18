@@ -1,5 +1,5 @@
 body {
-	background-image: url('../images/map_1920w.jpg');
+	background-image: url('../images/map_1920w-blur.jpg');
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/map_1920w.jpg', sizingMethod='image/scale/crop');
 	background-repeat:no-repeat;
 	background-attachment:fixed;

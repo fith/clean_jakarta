@@ -11,6 +11,9 @@
   <?php print $scripts; ?>
   <title><?php print $head_title; ?></title>
   <link href='http://fonts.googleapis.com/css?family=IM+Fell+English' rel='stylesheet' type='text/css'>
+  <script>
+    $("body").click( $("body").css("background-image:", "url('../images/map_1920w.jpg')"))
+  </script>
 </head>
 
 <body<?php print drupal_attributes($attr); ?>>
