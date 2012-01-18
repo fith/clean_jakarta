@@ -212,6 +212,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 	padding:0px;
 }
 
+#team .pane-title {
+	background-image:url('../images/team-panel.jpg');
+	background-size:100% auto;
+}
 #acf .pane-title {
 	background-image:url('../images/food.jpg');
 	background-size:100% auto;
@@ -239,6 +243,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 	background: #e9e7c5; /* Old browsers */
 	
 	background-position:top left;
+}
+.section-donate .pane-title {
+	padding:10px;
 }
 
 .section-donate .pane-title,
@@ -338,6 +345,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 	text-align:right;	
 	font-size:13px;
 	font-family:sans-serif;
+}
+.node-panel .node-submitted {
+	display:none;
 }
 
 .node-body {
