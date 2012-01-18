@@ -329,7 +329,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 .tweet a:hover,
 .tweet a:visited,
 .tweet a:active {
-	text-decoration:none;
+	text-decoration:none !important;
 	line-height:1.0;
 	margin:0;
 	font-family: 'IM Fell English', serif;
