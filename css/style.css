@@ -196,7 +196,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 }
 
 .panel-panel {
-	width:32% !important;
+	width:30% !important;
+	margin:0px 10px;
+	border: 2px solid #352a23;
+-moz-border-radius-topleft: 20px;
+-moz-border-radius-topright: 20px;
+-moz-border-radius-bottomright: 2px;
+-moz-border-radius-bottomleft: 2px;
+-webkit-border-radius: 20px 20px 2px 2px;
+border-radius: 20px 20px 2px 2px;
 }
 .panel-panel .inside {
 	padding: 0px !important;
@@ -249,6 +257,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 }
 .section-donate .pane-title {
 	padding:10px;
+	font-size:24pt
 }
 
 .section-donate .pane-title,
