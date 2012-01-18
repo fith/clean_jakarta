@@ -319,6 +319,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 }
 .node-tweet {
 	padding-bottom:0px;
+	border: 2px solid #352a23;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 }
 .node-tweet .node-links {
 	padding:0px;
