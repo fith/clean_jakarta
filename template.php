@@ -47,7 +47,11 @@ function phptemplate_username($object) {
       $name = $object->name;
     }
 
-    if (user_access('access user profiles') && in_array("team", $user->roles)) {
+    if(is_array($user->roles)) {
+      $is_team = in_array("team", $user->roles);
+    }
+
+    if (user_access('access user profiles') && ) {
       $output = l($name, 'user/' . $object->uid, array('attributes' => array('title' => t('View their profile.'))));
     }
     else {
