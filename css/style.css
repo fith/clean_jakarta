@@ -316,7 +316,7 @@ border-radius: 20px 20px 2px 2px;
 .view-photos a img {
 	border: 1px solid #352a23;
 	padding: 2px;
-	margin: 26px 0px 0px 26px;
+	margin: 26px 0px 0px 10px;
 	background-color:#ecd7b3;
 }
 
