@@ -51,7 +51,7 @@ function phptemplate_username($object) {
       $is_team = in_array("team", $user->roles);
     }
 
-    if (user_access('access user profiles') && ) {
+    if (user_access('access user profiles') && $is_team) {
       $output = l($name, 'user/' . $object->uid, array('attributes' => array('title' => t('View their profile.'))));
     }
     else {
