@@ -26,12 +26,9 @@
         <div class='node-submitted clear-block'>
           <?php
               if($node->name !== "admin") {
-                print '— ' . theme('username', $node) . ', ';
+                print theme('username', $node) . ' | ';
               }
               print format_date($node->created, 'custom', 'F d, Y');
-              if ($terms) {
-                  print 'Care of: ' . $terms;
-              }
           ?>
         </div>
       <?php endif; ?>
