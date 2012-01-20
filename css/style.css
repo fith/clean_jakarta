@@ -54,8 +54,8 @@ body {
 	position:relative;
 	top:-2em;
 }
-#navigation .primary-links .facebook,
-#navigation .primary-links .twitter {
+#navigation .primary-links li.facebook,
+#navigation .primary-links li.twitter {
 	display:inline-block;
 	float:right;	
 	margin:0px;
