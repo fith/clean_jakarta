@@ -71,11 +71,10 @@ body {
 	text-indent:-9999px;
 	margin:0px;
 	padding:0px;
-	top:-10px;
 }
 #navigation .primary-links .facebook a {
 	background-image: url('../images/facebook.png');
-	right:-88px;
+	
 
 }
 #navigation .primary-links .twitter a {
