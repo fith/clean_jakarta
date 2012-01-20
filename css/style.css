@@ -61,7 +61,7 @@ body {
 }
 #navigation .primary-links .facebook a,
 #navigation .primary-links .twitter a {
-	position:absolute;
+	
 	position:block;
 	height:66px;
 	width:59;
