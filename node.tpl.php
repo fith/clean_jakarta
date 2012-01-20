@@ -22,12 +22,9 @@
 
     <div id="inner-node-content">
       <?php //print $picture; ?>
-
-      <?php print $content; ?>
-      <?php if ($submitted): ?>
+      <?php if ($submitted && $teaser): ?>
         <div class='node-submitted clear-block'>
           <?php
-            if ($submitted) { 
               if($node->name !== "admin") {
                 print '— ' . theme('username', $node) . ', ';
               }
@@ -35,8 +32,21 @@
               if ($terms) {
                   print 'Care of: ' . $terms;
               }
-            } 
-            ?>
+          ?>
+        </div>
+      <?php endif; ?>
+      <?php print $content; ?>
+      <?php if ($submitted && !$teaser): ?>
+        <div class='node-submitted clear-block'>
+          <?php
+              if($node->name !== "admin") {
+                print '— ' . theme('username', $node) . ', ';
+              }
+              print format_date($node->created, 'custom', 'F d, Y');
+              if ($terms) {
+                  print 'Care of: ' . $terms;
+              }
+          ?>
         </div>
       <?php endif; ?>
         <?php if ($links): ?>
