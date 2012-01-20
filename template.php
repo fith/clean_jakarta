@@ -200,12 +200,24 @@ function clean_jakarta_preprocess_page(&$variables) {
 }
 
 function clean_jakarta_preprocess_node(&$vars, $hook) {
-  if(($vars['node']->type === "story") && !$vars['node']->teaser) {
-    $vars['node']->body .= "\n<p>\n";
-    if($vars['node']->name !== "admin") {
-      $vars['node']->body .= "— " . theme('username', $node) . ", "; 
-    }
-    $vars['node']->body .= format_date($node->created, 'custom', 'F d, Y');
-    $vars['node']->body .= "</p>";
+//print_r($vars['node']);
+  
+}
+
+function clean_jakarta_node_api(&$node, $op, $a3 = NULL, $a4 = NULL) {
+ // print_r($node);
+  switch ($op) {
+    case 'view':
+      if(($node->type == "story") ) {
+        $node->body .= "\n<p>\n";
+        $node->body .= $node->name;
+        if($node->name !== "admin") {
+          $node->body .= "— " . theme('username', $node) . ", "; 
+        }
+        $node->body .= format_date($node->created, 'custom', 'F d, Y');
+        $node->body .= "</p>";
+      }
+      break;
   }
+
 }

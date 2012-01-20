@@ -23,6 +23,17 @@
     <div id="inner-node-content">
       <?php if ($submitted): ?>
         <div class='node-submitted clear-block'>
+          <?php
+            if ($submitted) { 
+              if($node->name !== "admin") {
+                print 'by ' . theme('username', $node) . ' | ';
+              }
+              
+              if ($terms) {
+                  print ' | in ' . $terms;
+              }
+            } 
+            ?>
         </div>
       <?php endif; ?>
       <?php //print $picture; ?>
