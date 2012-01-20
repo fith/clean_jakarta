@@ -301,12 +301,6 @@ border-radius: 20px 20px 2px 2px;
 .node-links {
 	clear:both;
 }
-
-.field-field-images {
-	float: right;
-	margin-left:20px;
-	clear:right;
-}
 .page-photos #content {
 	padding-bottom:26px;
 }
@@ -334,10 +328,14 @@ border-radius: 20px 20px 2px 2px;
 	clear: right;
 	border: 1px solid #352a23;
 	padding: 2px;
-	margin-bottom: 10px;
+	margin: 0px 0px 20px 40px;
 	background-color:#ecd7b3;
 }
-
+.field-field-images {
+	float: right;
+	margin-left:40px;
+	clear:right;
+}
 .node-teaser .field-field-images {
 	width: 234px;
 	max-width:234px;
