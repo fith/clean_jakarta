@@ -198,3 +198,14 @@ function clean_jakarta_preprocess_page(&$variables) {
   // Rebuild styles variable.
   $variables['styles'] = drupal_get_css(clean_css_stripped());
 }
+
+function clean_jakarta_preprocess_node(&$vars, $hook) {
+  if(($vars['node']->type === "story") && !$vars['node']->teaser) {
+    $vars['node']->body .= "\n<p>\n";
+    if($vars['node']->name !== "admin") {
+      $vars['node']->body .= "— " . theme('username', $node) . ", "; 
+    }
+    $vars['node']->body .= format_date($node->created, 'custom', 'F d, Y');
+    $vars['node']->body .= "</p>";
+  }
+}
