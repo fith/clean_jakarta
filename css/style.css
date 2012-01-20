@@ -61,6 +61,7 @@ body {
 	margin:0px;
 	padding:0px;
 	height:0px;
+	width:60px;
 }
 #navigation .primary-links .facebook a:link,
 #navigation .primary-links .facebook a:active,
@@ -77,15 +78,12 @@ body {
 	margin:0px;
 	padding:0px;
 	top:-10px;
-	right:0px;
 }
 #navigation .primary-links .facebook a {
 	background-image: url('../images/facebook.png');
-	right:88px;
 }
 #navigation .primary-links .twitter a {
 	background-image: url('../images/twitter.png');
-	right:8px;
 }
 
 #navigation .primary-links a,
