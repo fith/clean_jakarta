@@ -79,6 +79,11 @@ body {
 	padding:0px;
 }
 #navigation .primary-links .facebook a:active {
+	-moz-transform: scale(1) rotate(9deg) translate(0px, 0px) skew(0deg, 0deg);
+	-webkit-transform: scale(1) rotate(9deg) translate(0px, 0px) skew(0deg, 0deg);
+	-o-transform: scale(1) rotate(9deg) translate(0px, 0px) skew(0deg, 0deg);
+	-ms-transform: scale(1) rotate(9deg) translate(0px, 0px) skew(0deg, 0deg);
+	transform: scale(1) rotate(9deg) translate(0px, 0px) skew(0deg, 0deg);
 	top:-23px;
 }
 #navigation .primary-links .facebook a {
@@ -104,6 +109,11 @@ body {
 	z-index:999;
 }
 #navigation .primary-links .twitter a:active {
+	-moz-transform: scale(1) rotate(2deg) translate(0px, 0px) skew(0deg, 0deg);
+	-webkit-transform: scale(1) rotate(2deg) translate(0px, 0px) skew(0deg, 0deg);
+	-o-transform: scale(1) rotate(2deg) translate(0px, 0px) skew(0deg, 0deg);
+	-ms-transform: scale(1) rotate(2deg) translate(0px, 0px) skew(0deg, 0deg);
+	transform: scale(1) rotate(2deg) translate(0px, 0px) skew(0deg, 0deg);
 	top:-15px;
 }
 
