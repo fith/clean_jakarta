@@ -77,15 +77,26 @@ body {
 	text-indent:-9999px;
 	margin:0px;
 	padding:0px;
-	top:-10px;
 }
 #navigation .primary-links .facebook a {
+	-moz-transform: scale(1) rotate(10deg) translate(0px, 0px) skew(0deg, 0deg);
+	-webkit-transform: scale(1) rotate(10deg) translate(0px, 0px) skew(0deg, 0deg);
+	-o-transform: scale(1) rotate(10deg) translate(0px, 0px) skew(0deg, 0deg);
+	-ms-transform: scale(1) rotate(10deg) translate(0px, 0px) skew(0deg, 0deg);
+	transform: scale(1) rotate(10deg) translate(0px, 0px) skew(0deg, 0deg);
 	background-image: url('../images/facebook.png');
 	right:88px;
+	top:-20px;
 }
 #navigation .primary-links .twitter a {
+	-moz-transform: scale(1) rotate(3deg) translate(0px, 0px) skew(0deg, 0deg);
+	-webkit-transform: scale(1) rotate(3deg) translate(0px, 0px) skew(0deg, 0deg);
+	-o-transform: scale(1) rotate(3deg) translate(0px, 0px) skew(0deg, 0deg);
+	-ms-transform: scale(1) rotate(3deg) translate(0px, 0px) skew(0deg, 0deg);
+	transform: scale(1) rotate(3deg) translate(0px, 0px) skew(0deg, 0deg);
 	background-image: url('../images/twitter.png');
 	right:8px;
+	top:-17px;
 }
 
 #navigation .primary-links a,
