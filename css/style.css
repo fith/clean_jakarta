@@ -61,8 +61,12 @@ body {
 	margin:0px;
 	padding:0px;
 }
-#navigation .primary-links .facebook a,
-#navigation .primary-links .twitter a {
+#navigation .primary-links .facebook a:link,
+#navigation .primary-links .facebook a:active,
+#navigation .primary-links .facebook a:visited,
+#navigation .primary-links .twitter a:link,
+#navigation .primary-links .twitter a:active,
+#navigation .primary-links .twitter a:visited {
 	position:absolute;
 	position:block;
 	height:66px;
@@ -71,11 +75,12 @@ body {
 	text-indent:-9999px;
 	margin:0px;
 	padding:0px;
+	top:-10px;
+	right:0px;
 }
 #navigation .primary-links .facebook a {
 	background-image: url('../images/facebook.png');
-	
-
+	right:-88px;
 }
 #navigation .primary-links .twitter a {
 	background-image: url('../images/twitter.png');
