@@ -86,7 +86,7 @@ body {
 	transform: scale(1) rotate(10deg) translate(0px, 0px) skew(0deg, 0deg);
 	background-image: url('../images/facebook.png');
 	right:88px;
-	top:-20px;
+	top:-25px;
 }
 #navigation .primary-links .twitter a {
 	-moz-transform: scale(1) rotate(3deg) translate(0px, 0px) skew(0deg, 0deg);
@@ -97,6 +97,7 @@ body {
 	background-image: url('../images/twitter.png');
 	right:8px;
 	top:-17px;
+	z-index:999;
 }
 
 #navigation .primary-links a,
