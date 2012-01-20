@@ -21,25 +21,24 @@
     <?php endif; ?>
 
     <div id="inner-node-content">
+      <?php //print $picture; ?>
+
+      <?php print $content; ?>
       <?php if ($submitted): ?>
         <div class='node-submitted clear-block'>
           <?php
             if ($submitted) { 
               if($node->name !== "admin") {
-                print 'by ' . theme('username', $node) . ' | ';
+                print '— ' . theme('username', $node) . ', ';
               }
               print format_date($node->created, 'custom', 'F d, Y');
               if ($terms) {
-                  print ' | in ' . $terms;
+                  print 'Care of: ' . $terms;
               }
             } 
             ?>
         </div>
       <?php endif; ?>
-      <?php //print $picture; ?>
-
-      <?php print $content; ?>
-
         <?php if ($links): ?>
           <div class="node-links clear-block"><?php print $links; ?></div>
         <?php endif; ?>
