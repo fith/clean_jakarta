@@ -78,6 +78,9 @@ body {
 	margin:0px;
 	padding:0px;
 }
+#navigation .primary-links .facebook a:active {
+	top:-23px;
+}
 #navigation .primary-links .facebook a {
 	-moz-transform: scale(1) rotate(10deg) translate(0px, 0px) skew(0deg, 0deg);
 	-webkit-transform: scale(1) rotate(10deg) translate(0px, 0px) skew(0deg, 0deg);
@@ -87,6 +90,7 @@ body {
 	background-image: url('../images/facebook.png');
 	right:88px;
 	top:-25px;
+	z-index:999;
 }
 #navigation .primary-links .twitter a {
 	-moz-transform: scale(1) rotate(3deg) translate(0px, 0px) skew(0deg, 0deg);
@@ -98,6 +102,9 @@ body {
 	right:8px;
 	top:-17px;
 	z-index:999;
+}
+#navigation .primary-links .twitter a:active {
+	top:-15px;
 }
 
 #navigation .primary-links a,
