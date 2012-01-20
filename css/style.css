@@ -65,6 +65,8 @@ body {
 	position:block;
 	height:66px;
 	width:59;
+	overflow:hidden;
+	text-indent:-9999px;
 }
 #navigation .primary-links .facebook a {
 	background-image: url('../images/facebook.png');
