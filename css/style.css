@@ -60,6 +60,7 @@ body {
 	float:right;	
 	margin:0px;
 	padding:0px;
+	height:0px;
 }
 #navigation .primary-links .facebook a:link,
 #navigation .primary-links .facebook a:active,
@@ -67,7 +68,7 @@ body {
 #navigation .primary-links .twitter a:link,
 #navigation .primary-links .twitter a:active,
 #navigation .primary-links .twitter a:visited {
-	position:absolute;
+	position:relative;
 	position:block;
 	height:66px;
 	width:59px;
