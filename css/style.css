@@ -81,11 +81,11 @@ body {
 }
 #navigation .primary-links .facebook a {
 	background-image: url('../images/facebook.png');
-	right:-88px;
+	right:88px;
 }
 #navigation .primary-links .twitter a {
 	background-image: url('../images/twitter.png');
-	right:-8px;
+	right:8px;
 }
 
 #navigation .primary-links a,
