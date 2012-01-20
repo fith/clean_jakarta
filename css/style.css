@@ -156,7 +156,7 @@ body {
 	display:inline-block;
 	height:202px;
 	width:220px;
-	z-index:100;
+	z-index:10;
 }
 #block-menu-secondary-links .donate a { 
 	margin:74px 0px 0px 0px;
