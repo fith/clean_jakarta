@@ -61,7 +61,7 @@ body {
 }
 #navigation .primary-links .facebook a,
 #navigation .primary-links .twitter a {
-	
+	position:absolute;
 	position:block;
 	height:66px;
 	width:59;
@@ -70,6 +70,8 @@ body {
 }
 #navigation .primary-links .facebook a {
 	background-image: url('../images/facebook.png');
+	left:-80px;
+
 }
 #navigation .primary-links .twitter a {
 	background-image: url('../images/twitter.png');
