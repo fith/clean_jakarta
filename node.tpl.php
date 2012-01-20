@@ -26,7 +26,7 @@
         <div class='node-submitted clear-block'>
           <?php
               if($node->name !== "admin") {
-                print theme('username', $node) . ' | ';
+                print 'by ' . theme('username', $node) . ' | ';
               }
               print format_date($node->created, 'custom', 'F d, Y');
           ?>

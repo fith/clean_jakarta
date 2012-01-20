@@ -54,6 +54,24 @@ body {
 	position:relative;
 	top:-2em;
 }
+#navigation .primary-links .facebook,
+#navigation .primary-links .twitter {
+	display:inline-block;
+	float:right;	
+}
+#navigation .primary-links .facebook a,
+#navigation .primary-links .twitter a {
+	position:absolute;
+	position:block;
+	height:66px;
+	width:59;
+}
+#navigation .primary-links .facebook a {
+	background-image: url('../images/facebook.png');
+}
+#navigation .primary-links .twitter a {
+	background-image: url('../images/twitter.png');
+}
 
 #navigation .primary-links a,
 #block-menu-secondary-links li a {
