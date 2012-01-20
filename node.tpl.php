@@ -28,7 +28,7 @@
               if($node->name !== "admin") {
                 print 'by ' . theme('username', $node) . ' | ';
               }
-              
+              print format_date($node->created, 'custom', 'F d, Y');
               if ($terms) {
                   print ' | in ' . $terms;
               }

@@ -33,9 +33,11 @@ body {
 
 #branding #site-name {
 	display:inline-block;
+	width:348px;
+	height:190px;
 	margin:0px;
-	padding:40px;
-	font-size: 84pt;
+	padding:30px 0px 0px 40px;
+	font-size: 76pt;
 	line-height:0.8;
 	font-family: 'IM Fell English', serif;
 	color:white;
@@ -44,6 +46,13 @@ body {
 	background-image: url('../images/sitename-sash.png');
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/sitename-sash.png', sizingMethod='image/scale/crop');
 	background-repeat:no-repeat;
+}
+#branding #site-slogan {
+	display:inline-block;
+	margin-left:290px;
+	color:white;
+	position:relative;
+	top:-2em;
 }
 
 #navigation .primary-links a,
