@@ -58,6 +58,8 @@ body {
 #navigation .primary-links .twitter {
 	display:inline-block;
 	float:right;	
+	margin:0px;
+	padding:0px;
 }
 #navigation .primary-links .facebook a,
 #navigation .primary-links .twitter a {
@@ -67,10 +69,12 @@ body {
 	width:59;
 	overflow:hidden;
 	text-indent:-9999px;
+	margin:0px;
+	padding:0px;
 }
 #navigation .primary-links .facebook a {
 	background-image: url('../images/facebook.png');
-	left:-80px;
+	right:80px;
 
 }
 #navigation .primary-links .twitter a {
