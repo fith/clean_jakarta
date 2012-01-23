@@ -24,7 +24,7 @@ function clean_jakarta_theme(&$existing, $type, $theme, $path) {
   return $hooks;
 }
 
-function clean_jakarta_links($links) {
+function phptemplate_links($links) {
   if (count($links)>0){
     if (isset($links[node_read_more]) && isset($links[comment_add])){
       unset($links[comment_forbidden]);
