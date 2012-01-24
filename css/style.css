@@ -367,8 +367,8 @@ border-radius: 20px 20px 2px 2px;
 
 #inner-node-content .node-links {
 	float:right;
-	width:204px;
-	padding:20px 0px 0px 0px;
+	width:206px;
+	margin:0px 0px 0px 20px;
 }
 .page-photos #content {
 	padding-bottom:26px;
