@@ -269,7 +269,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 }
 
 .panel-panel .inside{
-	width:284px !important;
 	margin:0px 12px;
 	border: 2px solid #352a23;
 -moz-border-radius-topleft: 20px;
