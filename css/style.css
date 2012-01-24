@@ -365,9 +365,6 @@ border-radius: 20px 20px 2px 2px;
 	padding:0px;
 }
 
-.node-links {
-	clear:both;
-}
 .page-photos #content {
 	padding-bottom:26px;
 }
@@ -463,9 +460,9 @@ border-radius: 20px 20px 2px 2px;
 	border-radius: 10px;
 }
 .node-tweet .node-links {
-	padding:0px;
-	color:white;
-	z-index:;
+	padding:20px 0px 0px 0px;
+	width:204px;
+	float:right;
 }
 
 .tweet {
