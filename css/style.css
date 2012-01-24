@@ -357,6 +357,9 @@ border-radius: 20px 20px 2px 2px;
 .front #content #inner-node-content #inner-node-content {
 	padding:0px 20px;
 }
+#inner-node-content #inner-node-content {
+	padding:0px;
+}
 .front #content #inner-node-content,
 .page-map #inner-node-content {
 	padding:0px;
@@ -435,7 +438,7 @@ border-radius: 20px 20px 2px 2px;
 }
 
 .node-body {
-	margin:20px 20px 20px 10px;
+	margin:20px 20px 20px 20px;
 }
 .no-sidebars .node-body {
 	margin:0px;
@@ -571,5 +574,4 @@ textarea {
 .pane-content #inner-node-content {
 	padding-left:0px
 }
-
 
