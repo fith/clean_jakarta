@@ -583,7 +583,7 @@ textarea {
 }
 #disqus_thread {
 	margin-left:20px;
-	display:inline-block !important;
+	display:inline !important;
 }
 
 .fb-like-box iframe {
