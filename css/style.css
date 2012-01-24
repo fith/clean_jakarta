@@ -596,3 +596,7 @@ textarea {
 .service-links-twitter-widget iframe {
 	width:85px !important;
 }
+
+.read-more {
+	margin-left:20px;
+}
