@@ -578,3 +578,7 @@ textarea {
 #disqus-content {
 	display:inline-block !important;
 }
+
+.fb-like-box iframe {
+	background-color:#333;
+}
