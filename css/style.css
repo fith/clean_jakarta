@@ -578,12 +578,8 @@ textarea {
 	padding-left:0px
 }
 
-#dsq-content {
-	display:inline-block !important;
-}
 #disqus_thread {
 	margin-left:20px;
-	display:inline !important;
 }
 
 .fb-like-box iframe {
