@@ -578,10 +578,21 @@ textarea {
 	padding-left:0px
 }
 
-#disqus-content {
+#dsq-content {
 	display:inline-block !important;
+}
+#disqus_thread {
+	margin-left:20px;
 }
 
 .fb-like-box iframe {
 	background-color:#333;
+}
+
+.service-links-facebook-like {
+	width:80px;
+}
+
+.service-links-twitter-widget {
+	width:85px;
 }
