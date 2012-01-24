@@ -17,6 +17,14 @@
 </head>
 
 <body<?php print drupal_attributes($attr); ?>>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=328154920552231";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   <div id="branding">
     <div class="limiter clear-block">
       <?php if ($header): ?>
@@ -29,6 +37,7 @@
       <?php print $site_slogan_themed; ?>
       <?php print $mission_themed; ?>
       <?php print $search_box; ?>
+      
     </div>
   </div>
 

@@ -575,6 +575,6 @@ textarea {
 	padding-left:0px
 }
 
-#disqus_thread {
-	float:left;
+#disqus-content {
+	display:inline-block !important;
 }
