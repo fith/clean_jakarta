@@ -24,16 +24,6 @@ function clean_jakarta_theme(&$existing, $type, $theme, $path) {
   return $hooks;
 }
 
-function phptemplate_links($links) {
-  if (count($links)>0){
-    if (isset($links[node_read_more]) && isset($links[comment_add])){
-      unset($links[comment_forbidden]);
-      unset($links[comment_add]);
-    }
-  }
-  return theme_links($links);
-}
-
 function clean_jakarta_comment_form($form) {
  //print "<pre>".print_r($form,true)."</pre>";
   $form['#parameters']['title'] = "Share your thoughs...";
