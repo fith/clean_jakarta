@@ -21,6 +21,9 @@
     <?php endif; ?>
 
     <div id="inner-node-content">
+        <?php if ($links): ?>
+          <div class="node-links clear-block"><?php print $links; ?></div>
+        <?php endif; ?>
       <?php //print $picture; ?>
       <?php if ($submitted && $teaser): ?>
         <div class='node-submitted clear-block'>
@@ -46,9 +49,6 @@
           ?>
         </div>
       <?php endif; ?>
-        <?php if ($links): ?>
-          <div class="node-links clear-block"><?php print $links; ?></div>
-        <?php endif; ?>
     </div>
   </div>
 </div>
