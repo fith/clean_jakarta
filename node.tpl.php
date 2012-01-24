@@ -9,11 +9,8 @@
             if(module_exists("imagecache") && isset($node->field_images[0]['filepath'])) {  
               $bg_image = imagecache_create_path('blog_header', $node->field_images[0]['filepath']);
               $bg_image = "style=\"background-image:url('/".$bg_image."') !important;\"";
-            } else if (module_exists("imagecache")) {
-              $header_image_query = "select files.filepath from files, content_field_images where files.fid = content_field_images.field_images_fid order by RAND() ASC limit 1";
-              $header_image_queryResult =  db_query($header_image_query);
-              $random_header_image = db_fetch_object($header_image_queryResult);
-              $bg_image = imagecache_create_path('blog_header', $random_header_image);
+            } else if (module_exists("imagecache") && isset($variables['random_header_image'])) {
+              $bg_image = imagecache_create_path('blog_header', $variables['random_header_image']);
               $bg_image = "style=\"background-image:url('/".$bg_image."') !important;\"";
             }
             ?>
