@@ -589,10 +589,10 @@ textarea {
 	background-color:#333;
 }
 
-.service-links-facebook-like {
+.service-links-facebook-like iframe {
 	width:80px !important;
 }
 
-.service-links-twitter-widget {
+.service-links-twitter-widget iframe {
 	width:85px !important;
 }
