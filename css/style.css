@@ -279,8 +279,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 border-radius: 20px 20px 2px 2px;
 }
 .panel-panel .inside {
-	padding: 0px !important;
-	margin:0px !important;
+	padding: 0px 20px 20px 0px;
 }
 
 .node-type-panel #content {
