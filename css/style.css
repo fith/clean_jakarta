@@ -251,7 +251,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 
 }
 
-#content,
+.section-blog #content .node
+#page-node #content,
 .panel-panel .inside{
 	border: 2px solid #352a23;
 	-webkit-border-radius: 2px;
