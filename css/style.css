@@ -356,13 +356,13 @@ border-radius: 20px 20px 2px 2px;
 }
 
 #inner-node-content,
-.front #content #inner-node-content #inner-node-content {
+.section-blog #content #inner-node-content #inner-node-content {
 	padding:0px 20px;
 }
 #inner-node-content #inner-node-content {
 	padding:0px;
 }
-.front #content #inner-node-content,
+.section-blog #content #inner-node-content,
 .page-map #inner-node-content {
 	padding:0px;
 }
