@@ -252,7 +252,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 }
 
 .section-blog #content .node,
-body:not(.section-blog) #content,
+#content,
 .panel-panel .inside{
 	border: 2px solid #352a23;
 	-webkit-border-radius: 2px;
@@ -266,6 +266,13 @@ body:not(.section-blog) #content,
 	box-shadow: inset 0px 0px 60px 0px #eae7c5, 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
 
 	overflow:hidden;
+}
+.section-blog #content {
+	border:0px none black;
+	background-color:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow:
 }
 
 .panel-panel .inside{
