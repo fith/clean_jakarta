@@ -269,7 +269,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 }
 .section-blog #content {
 	border:0px none black;
-	background-color:none;
+	background-color:transparent;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow:
