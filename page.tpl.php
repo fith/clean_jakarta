@@ -4,7 +4,7 @@
 <html<?php print drupal_attributes($html_attr); ?> prefix="og: http://ogp.me/ns#">
 
 <head>
-  <meta name="google-site-verification" content="XV64PGEsIgEVU-7X0XT4dkq-TZJI3XyiSp9ANCFRmW8" />
+  <meta name="google-site-verification" content="60LBlDHOJWoq6TemYgKCaUS6Vk9XnBc9kDMD0Ayzm9s" />
   <?php print $head; ?>
   <?php print $styles; ?>
   <!--[if lt IE 8]><link type="text/css" rel="stylesheet" media="all" href="<?php print $base_theme; ?>css/ie-lt8.css" /><![endif]-->
