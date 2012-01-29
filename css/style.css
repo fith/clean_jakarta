@@ -313,7 +313,7 @@ border-radius: 20px 20px 2px 2px;
 	background-image:url('../images/birds.jpg');
 	background-size:100% auto;
 }
-.section-donate .pane-title,
+.pane-title,
 #content .node .node-title,
 .node-type-story #page .page-title,
 #page .page-title {
