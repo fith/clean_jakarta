@@ -606,10 +606,13 @@ textarea {
 
 .nivo-caption {
 	top:0px;
+	bottom:auto;
 	background-color:none;
 	background:transparent;
+	pointer-events: none;
 }
 .nivo-caption p {
+	pointer-events: none;
 	font-family: 'IM Fell English', serif;
 	text-transform:capitalize;
 	font-size:36pt;
