@@ -625,8 +625,8 @@ textarea {
 	height:43px;
 }
 .nivo-nextNav {
-	background-image: url('../images/right-hand.png');
+	background-image: url('../images/right-hand.png') !important;
 }
 .nivo-prevNav {
-	background-image: url('../images/left-hand.png');
+	background-image: url('../images/left-hand.png') !important;
 }
