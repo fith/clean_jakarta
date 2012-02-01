@@ -627,7 +627,9 @@ textarea {
 a.nivo-nextNav {
 	background-image: url('../images/right-hand.png') !important;
 	background-position: 0 0;
+	right:0px;
 }
 a.nivo-prevNav {
 	background-image: url('../images/left-hand.png') !important;
+	left:0px;
 }
