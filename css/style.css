@@ -318,7 +318,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 	background-size:100% auto;
 }
 .pane-title,
-.view-id-most_recent_blog .view-field-title,
+.view-id-most_recent_blog .views-field-title,
 #content .node .node-title,
 .node-type-story #page .page-title,
 #page .page-title {
