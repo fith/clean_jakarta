@@ -648,7 +648,8 @@ a.nivo-prevNav {
 	margin:0px 0px 20px 0px;
 }
 #node-34 .node-tweet {
-	border:0px solid none;
+	border:none;
+	border-width:0px;
 	border-radius:0px;	
 }
 #node-34 .panel-col-top .inside {
