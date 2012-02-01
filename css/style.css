@@ -279,15 +279,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 	box-shadow:
 }
 
-.panel-panel .inside{
+.panel-panel .inside {
 	margin:0px 12px;
 	border: 2px solid #352a23;
--moz-border-radius-topleft: 20px;
--moz-border-radius-topright: 20px;
--moz-border-radius-bottomright: 2px;
--moz-border-radius-bottomleft: 2px;
--webkit-border-radius: 20px 20px 2px 2px;
-border-radius: 20px 20px 2px 2px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-topright: 20px;
+	-moz-border-radius-bottomright: 2px;
+	-moz-border-radius-bottomleft: 2px;
+	-webkit-border-radius: 20px 20px 2px 2px;
+	border-radius: 20px 20px 2px 2px;
 }
 .panel-panel .inside {
 	padding: 0px 20px 20px 0px;
@@ -641,15 +641,15 @@ a.nivo-prevNav {
 #node-34 .node-body {
 	margin:0px;
 }
-#node-34 .panel-col-top .inside {
+#node-34 .panel-panel .inside {
 	border:0px solid none;
 	padding:0px;
+	border-radius:0px;	
 	margin:0px 0px 20px 0px;
-	border-radius:0px;
+}
+#node-34 .panel-col-top .inside {
+	
 }
 #node-34 .panel-col-middle .inside {
-	border:0px solid none;
-	padding:0px;
-	margin:0px 0px 20px 0px;
-	border-radius:0px;	
+	
 }
