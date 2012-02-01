@@ -623,11 +623,14 @@ textarea {
 .nivo-directionNav a {
 	width:69px;
 	height:43px;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	filter:alpha(opacity=5);
 }
 a.nivo-nextNav {
 	background-image: url('../images/right-hand.png') !important;
 	background-position: 0 0;
-	right:69px;
+	right:0px;
 }
 a.nivo-prevNav {
 	background-image: url('../images/left-hand.png') !important;
