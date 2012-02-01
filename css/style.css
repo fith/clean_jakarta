@@ -341,7 +341,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 
 
 .pane-title,
-.view-id-most_recent_blog .views-field-title,
+.view-id-most_recent_blog .views-field-title a,
 #content .node .node-title a,
 .page-title {
 	color:white;
