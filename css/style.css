@@ -641,5 +641,9 @@ a.nivo-prevNav {
 #node-34 .node-body {
 	margin:0px;
 }
-
+#node-34 .panel-col-top .inside {
+	border:0px solid none;
+	padding:0px;
+	margin:0px;
+}
 
