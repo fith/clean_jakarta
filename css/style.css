@@ -518,6 +518,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0202f', end
 	height:100px;
 	z-index:200;
 }
+ .node-tweet+.node-tweet .twitter-badge a {
+ 	background-image:none;
+ 	background:none;
+ 	height:0px;
+ 	width:0px;
+}
 .twitter-badge a:hover {
 	display:block;
 	position:relative;
